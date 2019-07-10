@@ -21,7 +21,7 @@ Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
 X_test = [[184,84,44],[198,92,48],[183,83,44],[166,47,36],[170,60,38],[172,64,39],[182,80,42],[180,80,43]]
 
 
-# CHALLENGE - ...and train them on our data
+# Fitting of Data
 clf = clf.fit(X, Y)
 knn= knn.fit(X,Y)
 nb = nb.fit(X,Y)
